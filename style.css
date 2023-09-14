@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.box h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.box p {
+  font-size: 16px;
+}
+
+pre {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#fullscreen-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Copri l'intero viewport */
+  position: fixed; /* Posizione fissa per rimanere al di sopra del contenuto */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Porta l'immagine in background rispetto al contenuto */
+}
+
+
+
+
+
